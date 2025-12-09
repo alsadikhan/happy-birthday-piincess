@@ -843,4 +843,10 @@ body {
 .confetti.c-4 { left: 35%; animation-delay: 0.8s; animation-duration: 3s; }
 /* ... এভাবে c-5 থেকে c-50 পর্যন্ত প্রতিটি কণার জন্য 'left' এবং 'animation-delay/duration' র্যান্ডমভাবে দিতে হবে। ... */
 .confetti.c-50 { left: 95%; animation-delay: 2.5s; animation-duration: 4.5s; }
+.name span {
+    letter-spacing: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    display: inline-block;
+}
 }
